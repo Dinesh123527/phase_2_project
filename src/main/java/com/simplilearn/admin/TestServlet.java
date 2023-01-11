@@ -25,13 +25,7 @@ public class TestServlet extends HttpServlet {
 	
 	@Resource(name="jdbc_database")
 	private DataSource dataSource;
-	
-	
-	
-	
-	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
+
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		
