@@ -5,9 +5,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
-
 import javax.sql.DataSource;
-
 import com.simplilearn.models.Student;
 import com.simplilearn.models.Subject;
 import com.simplilearn.models.Teacher;
