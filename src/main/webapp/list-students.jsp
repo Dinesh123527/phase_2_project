@@ -10,7 +10,6 @@
 <body style="background-image: url('css/background.jpg');">
 <div id="page" >
 	<jsp:include page="left-list.jsp" />
-
 	
 		<div id="wrapper">
 
@@ -19,40 +18,27 @@
 			</div>
 		</div>
 
-
 		<div id="container">
 
 			<div id="content">
 
 				<table>
-
 					<tr>
-
 						<th>First Name</th>
 						<th>Last Name</th>
-						<th>age</th>
-						
-
+						<th>age</th>		
 					</tr>
 
 					<c:forEach var="tempStudent" items="${STUDENT_LIST }">
 						<tr>
-
 							<td>${tempStudent.fname}</td>
 							<td>${tempStudent.lname}</td>
 							<td>${tempStudent.age}</td>
-
-
-
 						</tr>
-
-
 					</c:forEach>
-
 				</table>
 			</div>
 		</div>
 	</div>
-
 </body>
 </html>
