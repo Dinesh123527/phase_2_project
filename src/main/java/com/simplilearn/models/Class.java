@@ -50,7 +50,4 @@ public class Class {
 	public void setTime(String time) {
 		this.time = time;
 	}
-	
-	
-
 }
