@@ -33,6 +33,7 @@ table {
 	width:50%;
 }
 
+
 tr:nth-child(even) {background: #FFFFFF}
 tr:nth-child(odd) {background: #FFFFFF}
 
