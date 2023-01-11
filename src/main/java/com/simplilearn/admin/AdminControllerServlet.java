@@ -45,9 +45,6 @@ public class AdminControllerServlet extends HttpServlet {
 
 	}
 
-	/**
-	 * @see HttpServlet#HttpServlet()
-	 */
 	public AdminControllerServlet() {
 		super();
 		// TODO Auto-generated constructor stub
