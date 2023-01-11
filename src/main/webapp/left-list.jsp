@@ -19,17 +19,11 @@
 	<c:url var="studentsLink" value="AdminControllerServlet">
 		<c:param name="command" value="STUDENTS" />
 	</c:url>
-	
- 
 
- 
- 	 
-	
 	<a class="bar-item" href="${classesLink}">Classes</a> 
 		<a class="bar-item" href="${subjectsLink}">Subjects</a>
 		<a class="bar-item" href="${teachersLink}">Teachers</a> 
 		<a class="bar-item" href="${studentsLink}">Students</a> 
 		<a class="bar-item" href="login.jsp">Log out</a>
-
 </div>
 
